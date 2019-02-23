@@ -1,17 +1,13 @@
 {
   "name": "@cyberscape/stdcolor",
-  "version": "4.3.17",
+  "version": "4.3.18",
+  "private": true,
   "description": "Find the nearest Cyberscape Standard color from RGB or HEX.",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cscape/stdcolor.git"
   },
-  "keywords": [
-    "node",
-    "cyberscape",
-    "colors"
-  ],
   "author": "Cyberscape <info@cyberscape.co>",
   "license": "MIT",
   "bugs": {
