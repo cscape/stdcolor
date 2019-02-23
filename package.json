@@ -1,5 +1,5 @@
 {
-  "name": "@cscape/stdcolor",
+  "name": "@cyberscape/stdcolor",
   "version": "4.3.12",
   "description": "Find the nearest Cyberscape Standard color from RGB or HEX.",
   "main": "lib/index.js",
