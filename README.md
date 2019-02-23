@@ -33,7 +33,7 @@ console.log(StdColor('#f00'))
 
 ### StdColor(`hexString`)
 
-**Returns:** An RGB array with the closest matched values.
+**Returns:** An RGB array of numbers with the closest matched values.
 
 ## License
 
