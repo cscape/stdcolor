@@ -1,11 +1,11 @@
 {
   "name": "@cyberscape/stdcolor",
-  "version": "4.3.12",
+  "version": "4.3.17",
   "description": "Find the nearest Cyberscape Standard color from RGB or HEX.",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/flat-colors.js.git"
+    "url": "git+https://github.com/cscape/stdcolor.git"
   },
   "keywords": [
     "node",
@@ -15,7 +15,7 @@
   "author": "Cyberscape <info@cyberscape.co>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IonicaBizau/flat-colors.js/issues"
+    "url": "https://github.com/cscape/stdcolor/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/flat-colors.js"
+  "homepage": "https://github.com/cscape/stdcolor#readme"
 }
