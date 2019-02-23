@@ -1,19 +1,16 @@
 {
-  "name": "flat-colors",
-  "version": "3.3.11",
-  "description": "Find the nearest flat color for a RGB/Hex input.",
+  "name": "stdcolor",
+  "version": "4.3.12",
+  "description": "Find the nearest Cyberscape Standard color from RGB or HEX.",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha test"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/IonicaBizau/flat-colors.js.git"
   },
   "keywords": [
     "node",
-    "flat",
-    "ui",
+    "cyberscape",
     "colors"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
@@ -22,27 +19,5 @@
     "url": "https://github.com/IonicaBizau/flat-colors.js/issues"
   },
   "homepage": "https://github.com/IonicaBizau/flat-colors.js",
-  "directories": {
-    "example": "example",
-    "test": "test"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "^2.3.3"
-  },
-  "files": [
-    "bin/",
-    "app/",
-    "lib/",
-    "dist/",
-    "src/",
-    "scripts/",
-    "resources/",
-    "menu/",
-    "cli.js",
-    "index.js",
-    "bloggify.js",
-    "bloggify.json",
-    "bloggify/"
-  ]
+  "dependencies": {}
 }
