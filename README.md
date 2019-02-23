@@ -1,47 +1,31 @@
 # Standard Color
 
-Find the nearest flat color for a RGB/Hex input.
+Find the nearest Cyberscape Standard color from RGB or HEX.
 
-## Installation
+## Install
 
 ```sh
 # Using npm
-npm install --save flat-colors
+npm install --save cscape/stdcolor
 
 # Using yarn
-yarn add flat-colors
+yarn add cscape/stdcolor
 ```
 
 
 ## Example
 
-
-
 ```js
-// Dependencies
-var FlatColors = require("flat-colors")
+const StdColor = require('@cyberscape/stdcolor')
 
-// Get the flat red
-console.log(FlatColors(255, 0, 0));
-// => [211, 84, 0]
+// Absolute red
+console.log(StdColor([255, 0, 0]))
 
-// Same thing, but using a rgb array
-console.log(FlatColors([255, 0, 0]));
-// => [211, 84, 0]
-
-
-// Still same color but using hex color
-console.log(FlatColors("#f00"));
-// => [211, 84, 0]
-
-// Random flat color
-console.log(FlatColors());
-// => [?, ?, ?]
+// Hex colors
+console.log(StdColor('#f00'))
 ```
 
-
-
-## :question: Get Help
+## Get Help
 
 There are few ways to get help:
 
