@@ -3,7 +3,6 @@
   "version": "4.3.12",
   "description": "Find the nearest Cyberscape Standard color from RGB or HEX.",
   "main": "lib/index.js",
-  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/IonicaBizau/flat-colors.js.git"
@@ -13,11 +12,10 @@
     "cyberscape",
     "colors"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "author": "Cyberscape <info@cyberscape.co>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/flat-colors.js/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/flat-colors.js",
-  "dependencies": {}
+  "homepage": "https://github.com/IonicaBizau/flat-colors.js"
 }
