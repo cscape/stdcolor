@@ -18,16 +18,16 @@ yarn add cscape/stdcolor
 const StdColor = require('@cyberscape/stdcolor')
 
 // Absolute red
-console.log(StdColor([255, 0, 0]))
+console.log(StdColor(255, 0, 0))
 
 // Hex colors
 console.log(StdColor('#f00'))
 ```
 
-## :memo: Documentation
+## Documentation
 
 
-### `FlatColors(r, g, b)`
+### `StdColor(r, g, b)`
 Finds the nearest flat color for rgb and hex inputs.
 
 #### Params
