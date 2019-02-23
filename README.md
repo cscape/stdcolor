@@ -24,30 +24,16 @@ console.log(StdColor(255, 0, 0))
 console.log(StdColor('#f00'))
 ```
 
-## Documentation
+## API
 
 
-### `StdColor(r, g, b)`
-Finds the nearest flat color for rgb and hex inputs.
+### StdColor(`r`, `g`, `b`)
 
-#### Params
+**Returns:** An RGB array of numbers with the closest matched values.
 
-- **String|Number|Array** `r`: The color as string in hex format, the *red* value or the rgb passed as array. If `undefined`, a random color will be returned.
-- **Number** `g`: The green value.
-- **Number** `b`: The blue value.
+### StdColor(`hexString`)
 
-#### Return
-- **Array** An array containing the rgb values of the flat color which was found.
-
-### `toRgb(hex)`
-Converts a hex format color into rgb.
-
-#### Params
-
-- **String** `hex`: The color in the hex format.
-
-#### Return
-- **Array** The rgb array or null.
+**Returns:** An RGB array with the closest matched values.
 
 ## License
 
