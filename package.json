@@ -26,12 +26,6 @@
     "example": "example",
     "test": "test"
   },
-  "blah": {
-    "h_img": "http://i.imgur.com/S57IeyN.png",
-    "thanks": [
-      "The color values are taken from [flatuicolors.com](http://flatuicolors.com). :art:"
-    ]
-  },
   "dependencies": {},
   "devDependencies": {
     "mocha": "^2.3.3"
